@@ -1,0 +1,39 @@
+html {
+    background-color: #000;
+    color: #fff;
+}
+
+.double-sided {
+    -webkit-backface-visibility: visible;
+    backface-visibility: visible;
+}
+
+.points{
+    font-size: 2.5em;
+    padding-top : 10px;
+    color: white;
+    text-align : right;
+    font-family : monospace;
+    text-shadow : 2px 3px 3px #292929;
+    -webkit-text-stroke : 1px white;
+    font-weight: bold;
+    letter-spacing : 2px;
+    -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), color-stop(100%, rgba(0,0,0,0)), to(rgba(0,0,0,1)));
+}
+.inputCatcher{
+    font-size: 55px;
+    font-weight: bold;
+    font-family: fantasy;
+    word-spacing: 28px;
+    letter-spacing: 8px;
+    -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), color-stop(100%, rgba(0,0,0,0.9)), to(rgba(0,0,0,1)));
+    text-shadow : 2px 3px 3px #292929;
+    color: red;
+    text-align: center;
+}
+.inputCatcher .content{
+    top: 40%;
+    /* height: 100px; */
+    position: relative;
+    opacity: 1;
+}
